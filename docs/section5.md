@@ -24,3 +24,18 @@
     - All modules nhận biết sự hiện diện của MongooseModule
 
 ## ENV variables 
+- Sử dụng .dotenv --> k khuyến khích
+    - process.env.VARIABLE_NAME
+    - ưu
+    - nhược
+        - nhiều môi trường test sẽ k linh hoạt
+        
+- Config service in NestJS --> cách thay thế
+    - Về bản chất, Config Service cũng sử dụng thư viện .env
+    - Giải quyết 2 vấn đề: 
+        - sử dụng nhiều file .env
+        - validate file .env
+
+- Sử dụng Config Service
+- Sử dụng với file main.ts
+- Sử dụng khi khai báo Module
