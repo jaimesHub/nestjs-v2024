@@ -19,5 +19,8 @@
     - mongodb+srv://jameslearnsnestjs:wX10aAcHzSj3bfah@cluster0.wh22rm1.mongodb.net/
 
 ## Sử dụng MongoDB w NestJS 
+- Sử dụng mongoose 
+- Inject MongooseModule into AppModule
+    - All modules nhận biết sự hiện diện của MongooseModule
 
 ## ENV variables 
