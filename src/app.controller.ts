@@ -1,20 +1,14 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Render } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
-export class AppController { // Consumer
-  // Way 1: Constructor Injection
+// Consumer
+export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  // Way 2: Constructor Injection
-  // private readonly appService: AppService;
-
-  // constructor(appService: AppService) {
-  //   this.appService = appService;
-  // }
-
-  @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  @Get() // API (Restful)
+  @Render('home')
+  getHello() {
+    // return this.appService.getHello();
   }
 }

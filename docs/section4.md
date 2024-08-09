@@ -4,3 +4,8 @@
 - `nest g resource users`
 - UserModule
 - DI
+
+## Template Engine
+- public
+- views
+- __dirname: tồn tại sẵn 
