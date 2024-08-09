@@ -35,7 +35,15 @@
     - Giải quyết 2 vấn đề: 
         - sử dụng nhiều file .env
         - validate file .env
+    - khai báo ConfigModule tại AppModule
+    - optional: validate dotenv
+   
 
 - Sử dụng Config Service
+    - using the `ConfigService` class 
+    
 - Sử dụng với file main.ts
+    - using the `ConfigService` class at `main.ts`
+
 - Sử dụng khi khai báo Module
+    - load async config
