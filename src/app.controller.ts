@@ -8,7 +8,11 @@ export class AppController {
 
   @Get() // API (Restful)
   @Render('home')
-  getHello() {
-    // return this.appService.getHello();
+  handleHomePage() {
+    const message = this.appService.getHello();
+
+    return {
+      message: message,
+    };
   }
 }
