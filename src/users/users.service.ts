@@ -20,18 +20,15 @@ export class UsersService {
     return hash;
   };
 
-  async create(
-    // createUserDto: CreateUserDto,
-    email: string,
-    password: string,
-    name: string,
-  ) {
-    const hashPassword = this.getHashPassword(password);
+  async create(createUserDto: CreateUserDto) {
+    const hashPassword = this.getHashPassword(createUserDto.password);
+
     const newUser = await this.userModel.create({
-      email,
+      email: createUserDto.email,
       password: hashPassword,
-      name,
+      name: createUserDto.name,
     });
+
     return newUser;
   }
 

@@ -27,3 +27,13 @@ Goal
 ## 22.2 Hash User’s Password
 - hash password
 - `constructor(@InjectModel(User.name) private userModel: Model<User>) {}` ?
+    - `https://github.com/jaimesHub/nestjs-v2024/commit/e7b7a32be0eb42d3a60ee267cf1f6fd7525c4d5a`
+
+## 22.3 DTO - Data Transfer Object
+- request payloads
+- request object
+- DTO là 1 object định nghĩa hình dạng dữ liệu được “transfer” (frontend và backend)
+- Lưu ý sử dụng class, thay vì type hay interface
+
+- Update dto
+- Why do: controller -> service -> model -> mongodb
