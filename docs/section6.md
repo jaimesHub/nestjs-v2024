@@ -53,3 +53,5 @@ Goal
 - class validation
 
 ## 23. Get User by Id
+
+## 24. Update a User
