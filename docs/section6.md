@@ -37,6 +37,7 @@ Goal
 
 - Update dto
 - Why do: controller -> service -> model -> mongodb
+    - https://github.com/jaimesHub/nestjs-v2024/commit/994d4e7741f633c446464c57171a2ab94bd0edfb
 
 ## 22.4 Pipe
 - Pipe có 2 tác dụng:
@@ -47,3 +48,6 @@ Goal
 - use cases: built-in pipe 
 - schema based validation / class validation
 - https://docs.nestjs.com/pipes#class-validator
+
+## 22.5 Validation
+- class validation
