@@ -30,6 +30,7 @@ export class UsersController {
     @Param('id') 
     id: string
   ) {
+    // const id: string = req.params.id;
     return this.usersService.findOne(id);
   }
 
