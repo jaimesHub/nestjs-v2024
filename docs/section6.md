@@ -15,3 +15,11 @@ Goal
 - Model injection
     - create schema
     - validate schema
+
+## 22.1 Create A User
+- Tạo endpoint
+- Controller User (test route)
+- Service
+- request payloads
+    - @Body()
+    - làm sao để truy cập mongoDB --> tạo mới user 
