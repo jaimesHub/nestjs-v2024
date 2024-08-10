@@ -17,3 +17,8 @@
     - /.vscode/launch.json
     - re-customize launch.json
     - run & debug -> nest debug
+
+## 28. Stateful Application
+- session (bộ nhớ máy tính)
+- các phương pháp lưu trữ thông tin của client & server 
+
