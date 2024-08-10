@@ -51,3 +51,5 @@ Goal
 
 ## 22.5 Validation
 - class validation
+
+## 23. Get User by Id
