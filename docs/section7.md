@@ -9,3 +9,11 @@
     - stateless
         - client side rendering
         - access token
+
+## Debug NestJS Applications
+- Đặt breakpoint
+- npm run start:debug --> cần cầu hình thêm vscode
+- cấu hình vscode
+    - /.vscode/launch.json
+    - re-customize launch.json
+    - run & debug -> nest debug
