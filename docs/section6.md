@@ -55,3 +55,5 @@ Goal
 ## 23. Get User by Id
 
 ## 24. Update a User
+
+## 25. Delete a User
