@@ -23,3 +23,7 @@ Goal
 - request payloads
     - @Body()
     - làm sao để truy cập mongoDB --> tạo mới user 
+
+## 22.2 Hash User’s Password
+- hash password
+- `constructor(@InjectModel(User.name) private userModel: Model<User>) {}` ?
