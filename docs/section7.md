@@ -22,3 +22,12 @@
 - session (bộ nhớ máy tính)
 - các phương pháp lưu trữ thông tin của client & server 
 
+## 29. (Demo) Cơ chế hoạt động của Stateful App
+- https://github.com/harypham/nestjs-auth-basic 
+- f12 -> application -> cookies -> query db -> know who you are 
+- cấu hình để nestjs biết session 
+    - config cookies 
+    - config session 
+    - config passport
+    - install passport library
+    - nên lưu vào db/disk hơn là cache 
