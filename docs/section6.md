@@ -37,3 +37,13 @@ Goal
 
 - Update dto
 - Why do: controller -> service -> model -> mongodb
+
+## 22.4 Pipe
+- Pipe có 2 tác dụng:
+    - Transform data : convert string => number ,array …
+    - Validate data
+- ~ middleware
+- Nhận biết: những class nào có @Injectable thì được gọi là `pipe`
+- use cases: built-in pipe 
+- schema based validation / class validation
+- https://docs.nestjs.com/pipes#class-validator
