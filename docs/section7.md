@@ -34,4 +34,5 @@
 
 ## 30. Ưu / nhược điểm của stateful
 ## 31. Mô hình Stateless 
+- access token / refresh token
 ## 32. Ưu nhược điểm của stateless
