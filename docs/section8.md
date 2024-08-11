@@ -48,7 +48,7 @@
     - an toàn hơn so với tự code 
 - When ?
 
-## 36.1. Local Strategies với NestJS 1
+## 36. Local Strategies với NestJS
 - Mô hình stateless
 - username / password
 - server tạo access_token (jwt format)
@@ -58,3 +58,5 @@
 - server check thông tin có hợp lệ hay k ?
 - passport là thư viện gốc => giúp ra tạo ra middleware (can thiệp và req và res), và lưu
 trữ thông tin người dùng đăng nhập (req.user)
+
+- Implementing Passport local: https://docs.nestjs.com/recipes/passport 
