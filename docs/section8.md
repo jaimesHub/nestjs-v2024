@@ -47,3 +47,14 @@
     - hỗ trợ hơn 500 loại đăng nhập 
     - an toàn hơn so với tự code 
 - When ?
+
+## 36.1. Local Strategies với NestJS 1
+- Mô hình stateless
+- username / password
+- server tạo access_token (jwt format)
+
+### 1. Xác thực người dùng
+- quá trình client gửi lên server data (username/password)
+- server check thông tin có hợp lệ hay k ?
+- passport là thư viện gốc => giúp ra tạo ra middleware (can thiệp và req và res), và lưu
+trữ thông tin người dùng đăng nhập (req.user)
