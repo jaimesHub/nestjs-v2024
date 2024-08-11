@@ -60,3 +60,10 @@
 trữ thông tin người dùng đăng nhập (req.user)
 
 - Implementing Passport local: https://docs.nestjs.com/recipes/passport 
+
+## 37. Nestjs Guard
+- Middleware
+- Guards
+    - ExecutionContext (ly thuyet cua JS)
+    - Có nhiệm vụ check true/false
+    - Tạo base Guards: `TestGuard` --> how it works
