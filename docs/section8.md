@@ -82,3 +82,6 @@ trữ thông tin người dùng đăng nhập (req.user)
     - jwt.strategy.ts --> thư viện xử lý token như thế nào? encode, decode ra làm sao ?
     - jwt-auth.guard.ts --> middleware check có sử dụng JWT Strategy hay ko ?
     - nestjs config service inside super
+
+## 41. Enable authentication globally
+- check jwt cho tất cả APIs
