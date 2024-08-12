@@ -85,3 +85,9 @@ trữ thông tin người dùng đăng nhập (req.user)
 
 ## 41. Enable authentication globally
 - check jwt cho tất cả APIs
+    - SetMetadata
+
+# Concepts
+    - decorator
+    - DI
+    - middlewares
