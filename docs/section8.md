@@ -75,3 +75,10 @@ trữ thông tin người dùng đăng nhập (req.user)
 
 ## 39. Using JWT
 - nestjs jwtmodule with config service
+
+## 40. Implementing Passport JWT
+- bảo vệ route với jwt --> nếu như client k truyền kèm với access_token -> báo lỗi
+    - protected routes
+    - jwt.strategy.ts --> thư viện xử lý token như thế nào? encode, decode ra làm sao ?
+    - jwt-auth.guard.ts --> middleware check có sử dụng JWT Strategy hay ko ?
+    - nestjs config service inside super
