@@ -67,3 +67,8 @@ trữ thông tin người dùng đăng nhập (req.user)
     - ExecutionContext (ly thuyet cua JS)
     - Có nhiệm vụ check true/false
     - Tạo base Guards: `TestGuard` --> how it works
+
+## 38. LocalGuard w Passport
+- test api: `/login`
+    - username / password (đây là 2 body data bắt buộc phải nhập, k thay đổi được, lấy từ passport library)
+- debug after setup `/login` route
