@@ -72,3 +72,6 @@ trữ thông tin người dùng đăng nhập (req.user)
 - test api: `/login`
     - username / password (đây là 2 body data bắt buộc phải nhập, k thay đổi được, lấy từ passport library)
 - debug after setup `/login` route
+
+## 39. Using JWT
+- nestjs jwtmodule with config service
