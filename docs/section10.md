@@ -37,6 +37,7 @@
     - ko nên dùng cách này 
 - c2: using BE *
     - BE do dev kiểm soát  --> fix ở BE
-    - BE do bên thứ 3 làm
+    - BE do bên thứ 3 làm --> gọi BE -> BE sẽ giải quyết vấn đề FE -> BE (3rd party)
         - mô hình fe -> be -> be (3rd party)
         - sử dụng axios, ... 
+        - vì BE của cta k thể lấy cookie
