@@ -12,3 +12,8 @@
     - thêm nó từng model
     - thêm nó bằng global (AppModule) <---
 - cách sử dụng
+
+## 49. Query builder
+- search
+- pagination
+- filter
