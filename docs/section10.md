@@ -41,3 +41,9 @@
         - mô hình fe -> be -> be (3rd party)
         - sử dụng axios, ... 
         - vì BE của cta k thể lấy cookie
+
+## 52.2. Setup CORS NestJS
+- app.enableCors()
+- fix triệt để: CORS Configuration
+    - https://github.com/expressjs/cors#configuration-options
+- quá trình login để lưu cookie sẽ còn làm lại

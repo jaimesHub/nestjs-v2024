@@ -22,6 +22,15 @@ async function bootstrap() {
 
   app.useGlobalPipes(new ValidationPipe());
 
+  // config cors
+  app.enableCors({
+    "origin": "*",
+    // "origin": "http://localhost:3001", // cho phép nơi nào truy cập vào server's resource
+    "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+    "preflightContinue": false,
+    "optionsSuccessStatus": 204
+  });
+
   await app.listen(port);
 }
 bootstrap();
