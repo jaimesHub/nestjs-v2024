@@ -17,3 +17,6 @@
 - search
 - pagination
 - filter
+
+## 50. Setup FE project
+- Link: `https://github.com/haryphamdev/react-for-nest`
