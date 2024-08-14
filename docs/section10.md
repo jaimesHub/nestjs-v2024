@@ -20,3 +20,13 @@
 
 ## 50. Setup FE project
 - Link: `https://github.com/haryphamdev/react-for-nest`
+
+## 51. What is CORS ?
+- What ?
+    - Cơ chế server cho phép origin (domain/port) từ browser được truy cập 
+    - Xảy ra khi browser gửi request lên server và server chưa cấu hình CORS 
+- Why ?
+- Cơ chế của browser : sử dụng Cookie sẽ lưu theo domain & value
+    - Nếu k có cơ chế CORS thì sẽ dễ bị mất cookie 
+    - Vào chính xác domain nào thì nó gửi cookie đó
+- Chặn CORS khi khác domain 
