@@ -30,3 +30,13 @@
     - Nếu k có cơ chế CORS thì sẽ dễ bị mất cookie 
     - Vào chính xác domain nào thì nó gửi cookie đó
 - Chặn CORS khi khác domain 
+
+## 52.1 How to bypass CORS ?
+- c1: update browser
+    - chỉ cho demo thôi
+    - ko nên dùng cách này 
+- c2: using BE *
+    - BE do dev kiểm soát  --> fix ở BE
+    - BE do bên thứ 3 làm
+        - mô hình fe -> be -> be (3rd party)
+        - sử dụng axios, ... 
