@@ -7,6 +7,7 @@ import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
 import { JwtAuthGuard } from './auth/jwt-auth.guard';
 import { APP_GUARD } from '@nestjs/core';
+import { softDeletePlugin } from 'soft-delete-plugin-mongoose';
 
 @Module({
   imports: [
@@ -14,6 +15,10 @@ import { APP_GUARD } from '@nestjs/core';
       imports: [ConfigModule],
       useFactory: async (configService: ConfigService) => ({
         uri: configService.get<string>('MONGO_URL'),
+        connectionFactory: (connection) => {
+          connection.plugin(softDeletePlugin);
+          return connection;
+        }
       }),
       inject: [ConfigService],
     }),
@@ -26,10 +31,6 @@ import { APP_GUARD } from '@nestjs/core';
   controllers: [AppController],
   providers: [
     AppService,
-    // {
-    //   provide: APP_GUARD,
-    //   useClass: JwtAuthGuard,
-    // },
   ],
 })
 export class AppModule { }
