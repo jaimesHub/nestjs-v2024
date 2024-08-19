@@ -24,7 +24,7 @@ export class CompaniesService {
     });
   }
 
-  findAll() {
+  findAll(currentPage: number, limit: number, qs: string) {
     return `This action returns all companies`;
   }
 

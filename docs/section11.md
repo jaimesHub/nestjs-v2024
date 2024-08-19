@@ -27,3 +27,4 @@
     - paginating
         - offset & limit
         - aqp
+        - `nhờ việc dùng req.query(@Query()) chúng ta đã convert 'raw query' sang dạng object -> thuận lợi cho việc thao tác sau này`
