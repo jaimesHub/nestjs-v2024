@@ -15,4 +15,5 @@
 
 - test
     - login
-    
+- passing req.user
+    - @User()
