@@ -18,3 +18,7 @@
 - passing req.user
     - @User()
 - update a company
+- delete a company
+    - mongoose hook
+    - update: updatedBy
+    - softDelete
