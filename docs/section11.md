@@ -28,3 +28,9 @@
         - offset & limit
         - aqp
         - `nhờ việc dùng req.query(@Query()) chúng ta đã convert 'raw query' sang dạng object -> thuận lợi cho việc thao tác sau này`
+    - filter
+        - c1: how to disable check error a line
+        - c2: sort as any
+        - c3: typescript destructuring
+        - like operator: regex , /pattern/i
+            - `http://localhost:8000/companies?page=1&limit=10&name=/pt/i`
