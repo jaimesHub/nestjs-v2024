@@ -22,3 +22,8 @@
     - mongoose hook
     - update: updatedBy
     - softDelete
+- Query with Pagination
+    - creating dummy records
+    - paginating
+        - offset & limit
+        - aqp
