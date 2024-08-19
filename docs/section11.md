@@ -17,3 +17,4 @@
     - login
 - passing req.user
     - @User()
+- update a company
