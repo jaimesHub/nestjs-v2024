@@ -45,3 +45,9 @@
     - convention 
     - reactive programming
         - observable > < promise
+    
+    - Transform Response
+        - format data before sending data in nestjs: core/transform.interceptor.ts
+        - binding interceptor
+        - exception mapping
+        - exception filter
