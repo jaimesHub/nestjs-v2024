@@ -34,3 +34,14 @@
         - c3: typescript destructuring
         - like operator: regex , /pattern/i
             - `http://localhost:8000/companies?page=1&limit=10&name=/pt/i`
+- Interceptor
+    - > middleware, ~ guard, smarter
+    - mục đích
+        - thêm 1 phần logic  trước/sau khi 1 function thực thi 
+        - chuẩn hoá data trước khi gửi về client 
+        - thay đổi exception phù hợp với nhu cầu 
+        - mở rộng thêm 1 function
+        - overwrite 
+    - convention 
+    - reactive programming
+        - observable > < promise
