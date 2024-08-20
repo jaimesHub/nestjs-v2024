@@ -16,13 +16,13 @@ async function bootstrap() {
   // global guard here
   const reflector = app.get(Reflector);
   app.useGlobalGuards(new JwtAuthGuard(reflector)); // GUARD jwt: make sure you have to input access_token into some protected route
+  app.useGlobalInterceptors(new TransformInterceptor(reflector));
 
   app.useStaticAssets(join(__dirname, '..', 'public')); // html, css, js
   app.setBaseViewsDir(join(__dirname, '..', 'views')); // ejs
   app.setViewEngine('ejs');
 
   app.useGlobalPipes(new ValidationPipe());
-  app.useGlobalInterceptors(new TransformInterceptor());
 
   // config cors
   app.enableCors({
